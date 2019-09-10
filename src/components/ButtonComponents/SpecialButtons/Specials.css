@@ -1,8 +1,14 @@
+.specialDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
 .special {
     background-color: #0b5d9a;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     color: white;
     font-size: 2rem;
+    margin-bottom: 20px;
 }

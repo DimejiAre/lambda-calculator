@@ -1,8 +1,15 @@
+.numberDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .number {
     background-color: #094071;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     color: white;
     font-size: 2rem;
+    margin: 0 10px 20px 10px;
 }
