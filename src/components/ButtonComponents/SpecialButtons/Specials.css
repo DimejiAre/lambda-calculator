@@ -1,0 +1,8 @@
+.special {
+    background-color: #0b5d9a;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
