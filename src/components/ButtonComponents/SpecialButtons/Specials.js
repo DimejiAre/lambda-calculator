@@ -9,7 +9,7 @@ import {specials} from "../../../data"
 const Specials = () => {
   // STEP 2 - add the imported data to state
 
-  const [special, setSpecail] = useState(specials);
+  const [special, setSpecial] = useState(specials);
 
   return (
     <div>
@@ -17,13 +17,15 @@ const Specials = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {
-         special.map(chr => {
+         special.map(chr => (
            <SpecialButton 
            key={chr}
            digit = {chr}
-           click = {setSpecail}/>
-         })
+           click = {setSpecial}/>
+         ))
        }
     </div>
   );
 };
+
+export default Specials;
