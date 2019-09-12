@@ -30,3 +30,5 @@ const operators = [
 ];
 
 const specials = ["C", "+/-", "%"];
+
+module.exports = {numbers, operators, specials}
